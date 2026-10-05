@@ -1,6 +1,6 @@
  
 ![001](screenshots/001.png)
-
+![002](screenshots/002.png)
 老样子,先装个py2.7
 
 运行目录下的py,
