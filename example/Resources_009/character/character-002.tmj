@@ -1,0 +1,3306 @@
+{ "compressionlevel":-1,
+ "height":10, 
+ "infinite":false,
+ "layers":[
+        {
+         "data":[1, 2, 3, 0, 0, 0, 0, 0,
+            34, 35, 36, 0, 0, 0, 0, 0,
+            67, 68, 69, 0, 0, 0, 0, 0,
+            100, 101, 102, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":1,
+         "name":"stand-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.333333333
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":78,
+         "name":"stand-01",
+         "objects":[
+                {
+                 "height":32,
+                 "id":8,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[4, 5, 6, 0, 0, 0, 0, 0,
+            37, 38, 39, 0, 0, 0, 0, 0,
+            70, 71, 72, 0, 0, 0, 0, 0,
+            103, 104, 105, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":2,
+         "name":"run-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.33333333
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":81,
+         "name":"run-01",
+         "objects":[
+                {
+                 "height":32,
+                 "id":12,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":82,
+         "name":"run-02",
+         "objects":[
+                {
+                 "height":32,
+                 "id":13,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":83,
+         "name":"run-03",
+         "objects":[
+                {
+                 "height":32,
+                 "id":14,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[7, 8, 9, 0, 0, 0, 0, 0,
+            40, 41, 42, 0, 0, 0, 0, 0,
+            73, 74, 75, 0, 0, 0, 0, 0,
+            106, 107, 108, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":3,
+         "name":"run-02",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.3333333
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[10, 11, 12, 0, 0, 0, 0, 0,
+            43, 44, 45, 0, 0, 0, 0, 0,
+            76, 77, 78, 0, 0, 0, 0, 0,
+            109, 110, 111, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":4,
+         "name":"run-03",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.3333333
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        },
+    
+        {
+         "draworder":"topdown",
+         "id":87,
+         "name":"attack-01-01",
+         "objects":[
+                {
+                 "height":32,
+                 "id":17,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":88,
+         "name":"attack-01-02",
+         "objects":[
+                {
+                 "height":32,
+                 "id":18,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":89,
+         "name":"attack-01-03",
+         "objects":[
+                {
+                 "height":32,
+                 "id":19,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[199, 200, 0, 0, 0, 0, 0, 0,
+            232, 233, 0, 0, 0, 0, 0, 0,
+            265, 266, 0, 0, 0, 0, 0, 0,
+            298, 299, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":5,
+         "name":"attack-01-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.5
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[201, 202, 203, 204, 0, 0, 0, 0,
+            234, 235, 236, 237, 0, 0, 0, 0,
+            267, 268, 269, 270, 0, 0, 0, 0,
+            300, 301, 302, 303, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":6,
+         "name":"attack-01-02",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.25
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[205, 206, 207, 208, 0, 0, 0, 0,
+            238, 239, 240, 241, 0, 0, 0, 0,
+            271, 272, 273, 274, 0, 0, 0, 0,
+            304, 305, 306, 307, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":7,
+         "name":"attack-01-03",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.25
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":98,
+         "name":"attack-02-01",
+         "objects":[
+                {
+                 "height":32,
+                 "id":28,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":99,
+         "name":"attack-02-02",
+         "objects":[
+                {
+                 "height":32,
+                 "id":29,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        },
+    
+        {
+         "draworder":"topdown",
+         "id":100,
+         "name":"attack-02-03",
+         "objects":[
+                {
+                 "height":32,
+                 "id":30,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":126,
+         "name":"attack-02-04",
+         "objects":[
+                {
+                 "height":32,
+                 "id":55,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[331, 332, 333, 0, 0, 0, 0, 0,
+            364, 365, 366, 0, 0, 0, 0, 0,
+            397, 398, 399, 0, 0, 0, 0, 0,
+            430, 431, 432, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":12,
+         "name":"attack-02-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.66666
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[334, 335, 336, 337, 338, 0, 0, 0,
+            367, 368, 369, 370, 371, 0, 0, 0,
+            400, 401, 402, 403, 404, 0, 0, 0,
+            433, 434, 435, 436, 437, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":13,
+         "name":"attack-02-02",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.2
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[334, 335, 336, 337, 337, 337, 337, 338,
+            367, 368, 369, 370, 370, 370, 370, 371,
+            400, 401, 0, 0, 0, 0, 0, 0,
+            433, 434, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":15,
+         "name":"attack-02-03",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.125
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[334, 335, 336, 337, 337, 338, 0, 0,
+            367, 368, 369, 370, 370, 371, 0, 0,
+            400, 401, 402, 403, 404, 0, 0, 0,
+            433, 434, 435, 436, 437, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":14,
+         "name":"attack-02-04",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.166666666
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":121,
+         "name":"attack-03-01",
+         "objects":[
+                {
+                 "height":32,
+                 "id":51,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":122,
+         "name":"attack-03-02",
+         "objects":[
+                {
+                 "height":32,
+                 "id":52,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        },
+    
+        {
+         "draworder":"topdown",
+         "id":123,
+         "name":"attack-04-01",
+         "objects":[
+                {
+                 "height":32,
+                 "id":53,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":124,
+         "name":"attack-04-02",
+         "objects":[
+                {
+                 "height":32,
+                 "id":54,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 348, 349, 0, 0, 0,
+            0, 0, 0, 381, 382, 0, 0, 0,
+            345, 346, 347, 414, 0, 0, 0, 0,
+            378, 379, 380, 348, 0, 0, 0, 0,
+            411, 412, 0, 0, 0, 0, 0, 0,
+            444, 445, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":17,
+         "name":"attack-03-01",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 349,
+            0, 0, 0, 0, 0, 348, 381, 382,
+            0, 0, 0, 0, 348, 381, 414, 0,
+            0, 0, 0, 348, 381, 414, 447, 0,
+            0, 0, 0, 381, 414, 447, 0, 0,
+            345, 346, 347, 414, 447, 0, 0, 0,
+            378, 379, 380, 447, 0, 0, 0, 0,
+            411, 412, 413, 0, 0, 0, 0, 0,
+            444, 445, 446, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":16,
+         "name":"attack-03-02",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[343, 344, 0, 0, 0, 0, 0, 0,
+            376, 377, 0, 0, 0, 0, 0, 0,
+            438, 439, 0, 0, 0, 0, 0, 0,
+            341, 342, 0, 0, 0, 0, 0, 0,
+            374, 375, 0, 0, 0, 0, 0, 0,
+            407, 408, 0, 0, 0, 0, 0, 0,
+            440, 441, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":19,
+         "name":"attack-04-01",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[343, 344, 0, 0, 0, 0, 0, 0,
+            376, 377, 0, 0, 0, 0, 0, 0,
+            376, 377, 0, 0, 0, 0, 0, 0,
+            409, 410, 0, 0, 0, 0, 0, 0,
+            442, 443, 0, 0, 0, 0, 0, 0,
+            438, 439, 0, 0, 0, 0, 0, 0,
+            341, 342, 0, 0, 0, 0, 0, 0,
+            374, 375, 0, 0, 0, 0, 0, 0,
+            407, 408, 0, 0, 0, 0, 0, 0,
+            440, 441, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":18,
+         "name":"attack-04-02",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":90,
+         "name":"attack-05-01",
+         "objects":[
+                {
+                 "height":32,
+                 "id":20,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":91,
+         "name":"attack-05-02",
+         "objects":[
+                {
+                 "height":32,
+                 "id":21,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        },
+    
+        {
+         "data":[242, 243, 0, 0, 0, 0, 0, 0,
+            275, 276, 0, 0, 0, 0, 0, 0,
+            271, 272, 0, 0, 0, 0, 0, 0,
+            304, 305, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":20,
+         "name":"attack-05-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.5
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[244, 245, 246, 0, 0, 0, 0, 0,
+            277, 278, 279, 0, 0, 0, 0, 0,
+            271, 272, 0, 0, 0, 0, 0, 0,
+            304, 305, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":21,
+         "name":"attack-05-02",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.33333333
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":133,
+         "name":"attack-06-01",
+         "objects":[
+                {
+                 "height":32,
+                 "id":62,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":134,
+         "name":"attack-06-02",
+         "objects":[
+                {
+                 "height":32,
+                 "id":63,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":135,
+         "name":"attack-06-03",
+         "objects":[
+                {
+                 "height":32,
+                 "id":64,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":136,
+         "name":"attack-06-04",
+         "objects":[
+                {
+                 "height":32,
+                 "id":65,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[516, 517, 518, 0, 0, 0, 0, 0,
+            549, 550, 551, 0, 0, 0, 0, 0,
+            582, 583, 584, 0, 0, 0, 0, 0,
+            615, 616, 617, 0, 0, 0, 0, 0,
+            648, 649, 650, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":29,
+         "name":"attack-06-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.6666
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[453, 454, 455, 0, 0, 0, 0, 0,
+            486, 487, 488, 0, 0, 0, 0, 0,
+            519, 520, 521, 0, 0, 0, 0, 0,
+            552, 553, 554, 0, 0, 0, 0, 0,
+            585, 586, 587, 0, 0, 0, 0, 0,
+            618, 619, 620, 0, 0, 0, 0, 0,
+            651, 652, 653, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":30,
+         "name":"attack-06-02",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.6666
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.357
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        },
+    
+        {
+         "data":[391, 392, 0, 0, 0, 0, 0, 0,
+            424, 425, 0, 0, 0, 0, 0, 0,
+            457, 458, 0, 0, 0, 0, 0, 0,
+            490, 491, 0, 0, 0, 0, 0, 0,
+            523, 524, 0, 0, 0, 0, 0, 0,
+            556, 557, 0, 0, 0, 0, 0, 0,
+            589, 590, 0, 0, 0, 0, 0, 0,
+            622, 623, 0, 0, 0, 0, 0, 0,
+            655, 656, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":31,
+         "name":"attack-06-03",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.5
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.277777
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[459, 460, 461, 0, 0, 0, 0, 0,
+            492, 493, 494, 0, 0, 0, 0, 0,
+            525, 526, 527, 0, 0, 0, 0, 0,
+            558, 559, 560, 0, 0, 0, 0, 0,
+            591, 592, 593, 0, 0, 0, 0, 0,
+            624, 625, 626, 0, 0, 0, 0, 0,
+            657, 658, 659, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":32,
+         "name":"attack-06-04",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.6666
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.357
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":86,
+         "name":"squat-01",
+         "objects":[
+                {
+                 "height":24,
+                 "id":16,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[1, 2, 0, 0, 0, 0, 0, 0,
+            34, 35, 36, 0, 0, 0, 0, 0,
+            308, 309, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":11,
+         "name":"squat-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.333333
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.333333
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":92,
+         "name":"squat-attack-01-01",
+         "objects":[
+                {
+                 "height":24,
+                 "id":22,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":93,
+         "name":"squat-attack-01-02",
+         "objects":[
+                {
+                 "height":24,
+                 "id":23,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":94,
+         "name":"squat-attack-01-03",
+         "objects":[
+                {
+                 "height":24,
+                 "id":24,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[199, 200, 0, 0, 0, 0, 0, 0,
+            232, 233, 0, 0, 0, 0, 0, 0,
+            308, 309, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":8,
+         "name":"squat-attack-01-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.5
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.333333
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        },
+    
+        {
+         "data":[201, 202, 0, 0, 0, 0, 0, 0,
+            234, 235, 236, 237, 0, 0, 0, 0,
+            138, 139, 269, 270, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":9,
+         "name":"squat-attack-01-02",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.25
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.333333
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[142, 143, 146, 147, 0, 0, 0, 0,
+            175, 176, 0, 180, 0, 0, 0, 0,
+            166, 167, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":10,
+         "name":"squat-attack-01-03",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.25
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.333333
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":101,
+         "name":"squat-attack-02-01",
+         "objects":[
+                {
+                 "height":24,
+                 "id":31,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":102,
+         "name":"squat-attack-02-02",
+         "objects":[
+                {
+                 "height":24,
+                 "id":32,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":103,
+         "name":"squat-attack-02-03",
+         "objects":[
+                {
+                 "height":24,
+                 "id":33,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[331, 332, 333, 0, 0, 0, 0, 0,
+            364, 365, 366, 0, 0, 0, 0, 0,
+            0, 166, 167, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":22,
+         "name":"squat-attack-02-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.6666666
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.333333
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[334, 335, 336, 337, 338, 0, 0, 0,
+            367, 368, 369, 370, 371, 0, 0, 0,
+            138, 139, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":23,
+         "name":"squat-attack-02-03",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.2
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.333333
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[334, 335, 336, 337, 337, 337, 337, 338,
+            367, 368, 369, 370, 370, 370, 370, 371,
+            166, 167, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":24,
+         "name":"squat-attack-02-02",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.125
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.333333
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        },
+    
+        {
+         "draworder":"topdown",
+         "id":104,
+         "name":"squat-attack-03-01",
+         "objects":[
+                {
+                 "height":24,
+                 "id":34,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":105,
+         "name":"squat-attack-03-02",
+         "objects":[
+                {
+                 "height":24,
+                 "id":35,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[242, 243, 0, 0, 0, 0, 0, 0,
+            275, 276, 0, 0, 0, 0, 0, 0,
+            308, 309, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":26,
+         "name":"squat-attack-03-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.5
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.333333
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[244, 245, 246, 0, 0, 0, 0, 0,
+            277, 278, 279, 0, 0, 0, 0, 0,
+            310, 311, 312, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":27,
+         "name":"squat-attack-03-02",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.33333
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.333333
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":113,
+         "name":"hang-01",
+         "objects":[
+                {
+                 "height":32,
+                 "id":43,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[661, 662, 663, 0, 0, 0, 0, 0,
+            694, 695, 696, 0, 0, 0, 0, 0,
+            727, 728, 729, 0, 0, 0, 0, 0,
+            760, 761, 762, 0, 0, 0, 0, 0,
+            793, 794, 795, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":28,
+         "name":"hang-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.6666666
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.6
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":110,
+         "name":"hang-forward-01-01",
+         "objects":[
+                {
+                 "height":32,
+                 "id":40,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":111,
+         "name":"hang-forward-01-02",
+         "objects":[
+                {
+                 "height":32,
+                 "id":41,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        },
+    
+        {
+         "draworder":"topdown",
+         "id":112,
+         "name":"hang-forward-01-03",
+         "objects":[
+                {
+                 "height":32,
+                 "id":42,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[665, 666, 667, 0, 0, 0, 0, 0,
+            698, 699, 700, 0, 0, 0, 0, 0,
+            731, 732, 733, 0, 0, 0, 0, 0,
+            764, 765, 766, 0, 0, 0, 0, 0,
+            797, 798, 799, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":35,
+         "name":"hang-forward-01-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.333333
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.6
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[668, 669, 0, 0, 0, 0, 0, 0,
+            701, 702, 0, 0, 0, 0, 0, 0,
+            734, 735, 0, 0, 0, 0, 0, 0,
+            767, 768, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":36,
+         "name":"hang-forward-01-02",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.5
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[671, 672, 673, 0, 0, 0, 0, 0,
+            704, 705, 706, 0, 0, 0, 0, 0,
+            737, 738, 739, 0, 0, 0, 0, 0,
+            770, 771, 772, 0, 0, 0, 0, 0,
+            803, 804, 805, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":37,
+         "name":"hang-forward-01-03",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.33333333
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.666666
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":132,
+         "name":"hang-attack-01-01",
+         "objects":[
+                {
+                 "height":32,
+                 "id":61,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":115,
+         "name":"hang-attack-01-02",
+         "objects":[
+                {
+                 "height":32,
+                 "id":45,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":116,
+         "name":"hang-attack-01-03",
+         "objects":[
+                {
+                 "height":32,
+                 "id":46,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[680, 681, 682, 0, 0, 0, 0, 0,
+            713, 714, 715, 0, 0, 0, 0, 0,
+            746, 747, 748, 0, 0, 0, 0, 0,
+            779, 780, 781, 0, 0, 0, 0, 0,
+            812, 813, 814, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":34,
+         "name":"hang-attack-01-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.666
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.666666
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        },
+    
+        {
+         "data":[684, 685, 686, 687, 0, 0, 0, 0,
+            717, 718, 719, 720, 0, 0, 0, 0,
+            750, 751, 752, 753, 0, 0, 0, 0,
+            783, 784, 785, 786, 0, 0, 0, 0,
+            816, 817, 818, 819, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":38,
+         "name":"hang-attack-01-02",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.25
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.666666
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[688, 689, 690, 691, 0, 0, 0, 0,
+            721, 722, 723, 724, 0, 0, 0, 0,
+            754, 755, 756, 757, 0, 0, 0, 0,
+            787, 788, 789, 790, 0, 0, 0, 0,
+            820, 821, 822, 823, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":39,
+         "name":"hang-attack-01-03",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.25
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.666666
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":129,
+         "name":"hang-attack-02-01",
+         "objects":[
+                {
+                 "height":32,
+                 "id":58,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":130,
+         "name":"hang-attack-02-02",
+         "objects":[
+                {
+                 "height":32,
+                 "id":59,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":131,
+         "name":"hang-attack-02-03",
+         "objects":[
+                {
+                 "height":32,
+                 "id":60,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 674, 675, 0, 0, 0, 0, 0,
+            608, 707, 708, 0, 0, 0, 0, 0,
+            641, 740, 741, 0, 0, 0, 0, 0,
+            0, 773, 774, 0, 0, 0, 0, 0,
+            0, 806, 807, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":40,
+         "name":"hang-attack-02-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.66666
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.6
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[677, 678, 0, 0, 0, 0, 0, 0,
+            710, 711, 613, 613, 613, 613, 613, 614,
+            743, 744, 646, 646, 646, 646, 646, 647,
+            776, 777, 0, 0, 0, 0, 0, 0,
+            809, 810, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":42,
+         "name":"hang-attack-02-02",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.125
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.6
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[677, 678, 0, 0, 0, 0, 0, 0,
+            710, 711, 613, 613, 614, 0, 0, 0,
+            743, 744, 646, 646, 647, 0, 0, 0,
+            776, 777, 0, 0, 0, 0, 0, 0,
+            809, 810, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":41,
+         "name":"hang-attack-02-03",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.2
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.6
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        },
+    
+        {
+         "draworder":"topdown",
+         "id":127,
+         "name":"hang-attack-03-01",
+         "objects":[
+                {
+                 "height":32,
+                 "id":56,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":128,
+         "name":"hang-attack-03-02",
+         "objects":[
+                {
+                 "height":32,
+                 "id":57,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[674, 675, 0, 0, 0, 0, 0, 0,
+            707, 708, 0, 0, 0, 0, 0, 0,
+            740, 741, 0, 0, 0, 0, 0, 0,
+            773, 774, 0, 0, 0, 0, 0, 0,
+            806, 807, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":43,
+         "name":"hang-attack-03-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.5
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.6
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[677, 678, 679, 0, 0, 0, 0, 0,
+            710, 711, 712, 0, 0, 0, 0, 0,
+            743, 744, 745, 0, 0, 0, 0, 0,
+            776, 777, 778, 0, 0, 0, 0, 0,
+            809, 810, 811, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":44,
+         "name":"hang-attack-03-02",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.33333333
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.6
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[214, 215, 216, 0, 0, 0, 0, 0,
+            247, 248, 249, 0, 0, 0, 0, 0,
+            280, 281, 282, 0, 0, 0, 0, 0,
+            313, 314, 315, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":45,
+         "name":"jmp",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.333333333
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":84,
+         "name":"jmp",
+         "objects":[
+                {
+                 "height":32,
+                 "id":15,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":95,
+         "name":"jmp-attack-01-01",
+         "objects":[
+                {
+                 "height":32,
+                 "id":25,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":96,
+         "name":"jmp-attack-01-02",
+         "objects":[
+                {
+                 "height":32,
+                 "id":26,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        },
+    
+        {
+         "draworder":"topdown",
+         "id":97,
+         "name":"jmp-attack-01-03",
+         "objects":[
+                {
+                 "height":32,
+                 "id":27,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[199, 200, 0, 0, 0, 0, 0, 0,
+            232, 233, 0, 0, 0, 0, 0, 0,
+            280, 281, 0, 0, 0, 0, 0, 0,
+            313, 314, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":46,
+         "name":"jmp-attack-01-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.5
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[201, 202, 203, 204, 0, 0, 0, 0,
+            234, 235, 236, 237, 0, 0, 0, 0,
+            280, 281, 269, 270, 0, 0, 0, 0,
+            313, 314, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":47,
+         "name":"jmp-attack-01-02",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.25
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[205, 206, 207, 208, 0, 0, 0, 0,
+            238, 239, 240, 241, 0, 0, 0, 0,
+            280, 281, 0, 0, 0, 0, 0, 0,
+            313, 314, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":48,
+         "name":"jmp-attack-01-03",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.25
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":106,
+         "name":"jmp-attack-02-01",
+         "objects":[
+                {
+                 "height":32,
+                 "id":36,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":107,
+         "name":"jmp-attack-02-02",
+         "objects":[
+                {
+                 "height":32,
+                 "id":37,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":109,
+         "name":"jmp-attack-02-03",
+         "objects":[
+                {
+                 "height":32,
+                 "id":39,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[331, 332, 333, 0, 0, 0, 0, 0,
+            364, 365, 366, 0, 0, 0, 0, 0,
+            0, 280, 281, 0, 0, 0, 0, 0,
+            0, 313, 314, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":49,
+         "name":"jmp-attack-02-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.666666666
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        },
+    
+        {
+         "data":[334, 335, 336, 337, 338, 0, 0, 0,
+            367, 368, 369, 370, 371, 0, 0, 0,
+            280, 281, 0, 0, 0, 0, 0, 0,
+            313, 314, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":50,
+         "name":"jmp-attack-02-02",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.25
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[334, 335, 336, 337, 337, 337, 337, 338,
+            367, 368, 369, 370, 370, 370, 370, 371,
+            280, 281, 0, 0, 0, 0, 0, 0,
+            313, 314, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":51,
+         "name":"jmp-attack-02-03",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.125
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":138,
+         "name":"jmp-attack-03-01",
+         "objects":[
+                {
+                 "height":32,
+                 "id":67,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":139,
+         "name":"jmp-attack-03-02",
+         "objects":[
+                {
+                 "height":32,
+                 "id":68,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[242, 243, 0, 0, 0, 0, 0, 0,
+            275, 276, 0, 0, 0, 0, 0, 0,
+            280, 281, 0, 0, 0, 0, 0, 0,
+            313, 314, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":52,
+         "name":"jmp-attack-03-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.5
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[244, 245, 246, 0, 0, 0, 0, 0,
+            277, 278, 279, 0, 0, 0, 0, 0,
+            280, 281, 0, 0, 0, 0, 0, 0,
+            313, 314, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":53,
+         "name":"jmp-attack-03-02",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.333333333
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[17, 18, 0, 0, 0, 0, 0, 0,
+            50, 51, 0, 0, 0, 0, 0, 0,
+            83, 84, 0, 0, 0, 0, 0, 0,
+            116, 117, 0, 0, 0, 0, 0, 0,
+            149, 150, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":54,
+         "name":"publish-01-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[19, 20, 0, 0, 0, 0, 0, 0,
+            52, 53, 0, 0, 0, 0, 0, 0,
+            85, 86, 0, 0, 0, 0, 0, 0,
+            118, 119, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":55,
+         "name":"publish-01-02",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        },
+    
+        {
+         "data":[26, 27, 28, 29, 0, 0, 0, 0,
+            59, 60, 61, 62, 0, 0, 0, 0,
+            92, 93, 94, 95, 0, 0, 0, 0,
+            125, 126, 127, 128, 0, 0, 0, 0,
+            158, 159, 160, 161, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":58,
+         "name":"publish-attack-01-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[30, 31, 0, 0, 0, 0, 0, 0,
+            63, 64, 65, 66, 0, 0, 0, 0,
+            96, 97, 98, 99, 0, 0, 0, 0,
+            129, 130, 0, 0, 0, 0, 0, 0,
+            162, 163, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":59,
+         "name":"publish-attack-01-02",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[21, 22, 23, 24, 25, 0, 0, 0,
+            54, 55, 56, 57, 58, 0, 0, 0,
+            87, 88, 89, 90, 91, 0, 0, 0,
+            120, 121, 122, 123, 124, 0, 0, 0,
+            153, 154, 155, 156, 157, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":56,
+         "name":"publish-attack-02-01",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[21, 22, 23, 24, 24, 24, 24, 25,
+            54, 55, 56, 57, 57, 57, 57, 58,
+            87, 88, 89, 90, 91, 0, 0, 0,
+            120, 121, 122, 123, 124, 0, 0, 0,
+            153, 154, 155, 156, 157, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":57,
+         "name":"publish-attack-02-02",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[30, 31, 0, 0, 0, 0, 0, 0,
+            63, 64, 0, 0, 0, 0, 0, 0,
+            96, 97, 0, 0, 0, 0, 0, 0,
+            129, 130, 0, 0, 0, 0, 0, 0,
+            162, 163, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":60,
+         "name":"publish-attack-03-01",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[21, 22, 23, 0, 0, 0, 0, 0,
+            54, 55, 56, 0, 0, 0, 0, 0,
+            87, 88, 89, 0, 0, 0, 0, 0,
+            120, 121, 122, 0, 0, 0, 0, 0,
+            153, 154, 155, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":61,
+         "name":"publish-attack-03-02",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":117,
+         "name":"roll-01-01",
+         "objects":[
+                {
+                 "height":24,
+                 "id":47,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":118,
+         "name":"roll-01-02",
+         "objects":[
+                {
+                 "height":32,
+                 "id":48,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        },
+    
+        {
+         "draworder":"topdown",
+         "id":119,
+         "name":"roll-01-03",
+         "objects":[
+                {
+                 "height":32,
+                 "id":49,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":120,
+         "name":"roll-01-04",
+         "objects":[
+                {
+                 "height":24,
+                 "id":50,
+                 "name":"collision",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[869, 870, 0, 0, 0, 0, 0, 0,
+            902, 903, 0, 0, 0, 0, 0, 0,
+            935, 936, 0, 0, 0, 0, 0, 0,
+            968, 969, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":62,
+         "name":"roll-01-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.5
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[871, 872, 873, 874, 0, 0, 0, 0,
+            904, 905, 906, 907, 0, 0, 0, 0,
+            937, 938, 939, 940, 0, 0, 0, 0,
+            970, 971, 972, 973, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":63,
+         "name":"roll-01-02",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.5
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[842, 843, 0, 0, 0, 0, 0, 0,
+            875, 876, 0, 0, 0, 0, 0, 0,
+            908, 909, 0, 0, 0, 0, 0, 0,
+            941, 942, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":64,
+         "name":"roll-01-03",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.5
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[877, 878, 879, 880, 0, 0, 0, 0,
+            910, 911, 912, 913, 0, 0, 0, 0,
+            943, 944, 945, 946, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":65,
+         "name":"roll-01-04",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.5
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.333333333
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[859, 860, 861, 0, 0, 0, 0, 0,
+            892, 893, 894, 0, 0, 0, 0, 0,
+            925, 926, 927, 0, 0, 0, 0, 0,
+            958, 959, 960, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":66,
+         "name":"death-01-01",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.66666
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[895, 896, 897, 0, 0, 0, 0, 0,
+            928, 929, 930, 0, 0, 0, 0, 0,
+            961, 962, 963, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":67,
+         "name":"death-01-02",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.333333333
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.6666666
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        },
+    
+        {
+         "data":[931, 932, 933, 934, 0, 0, 0, 0,
+            964, 965, 966, 967, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":68,
+         "name":"death-01-03",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.5
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":1
+                }],
+         "type":"tilelayer",
+         "visible":false,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[463, 464, 0, 0, 0, 0, 0, 0,
+            496, 497, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":140,
+         "name":"ScarWave",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"anchorPointX",
+                 "type":"float",
+                 "value":0.5
+                }, 
+                {
+                 "name":"anchorPointY",
+                 "type":"float",
+                 "value":0.5
+                }],
+         "type":"tilelayer",
+         "visible":true,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":141,
+         "name":"ScarWave",
+         "objects":[
+                {
+                 "height":16,
+                 "id":72,
+                 "name":"attack",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":0,
+                 "y":0
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":142,
+ "nextobjectid":73,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.11.2",
+ "tileheight":8,
+ "tilesets":[
+        {
+         "columns":33,
+         "firstgid":1,
+         "image":"character-002.png",
+         "imageheight":240,
+         "imagewidth":264,
+         "margin":0,
+         "name":"character-001",
+         "spacing":0,
+         "tilecount":990,
+         "tileheight":8,
+         "tilewidth":8
+        }],
+ "tilewidth":8,
+ "type":"map",
+ "version":"1.10",
+ "width":8
+}

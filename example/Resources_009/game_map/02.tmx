@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="256" height="64" tilewidth="8" tileheight="8" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="level01_01" tilewidth="8" tileheight="8" tilecount="4096" columns="64">
+  <image source="level01_01.png" width="512" height="512"/>
+ </tileset>
+ <layer id="1" name="图块层 1" width="256" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAMA6Dur3+9FTJI6CVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX1/QGh0UAu
+  </data>
+ </layer>
+</map>
