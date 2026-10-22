@@ -1,0 +1,80 @@
+by c_cpp123 qq1598058687 
+修改说明
+cocos2d-x-4.0\cocos\2d\CCTMXTiledMap.cpp
+  183 行 //    if (layerInfo->_visible)   //这个没用，碍手碍脚的(当地图_visible=false时，完全不读取)
+
+
+cocos2d-x-4.0\cocos\2d\CCTMXXMLParser.cpp
+736行加入
+//功能CSV地图换行的正确处理
+ 
+//原内容
+ while (getline(rowstr, sGID, ',')) {
+     if (sGID == "\r") //加入的
+     {
+               continue;
+     }
+    gidTokens.push_back(sGID);
+ }
+ 
+cocos2d-x-4.0\cocos\2d\CCTMXTiledMap.h
+137行加入变色处理
+void  updateColor(/*const Color3B& color, GLubyte opacity, bool opacityModifyRGB*/)
+	{
+		//Color4B color4(color.r, color.g, color.b, opacity);
+		Color4B color4(_displayedColor.r, _displayedColor.g, _displayedColor.b, _displayedOpacity);
+		// 特殊的透明度处理，用于预乘纹理
+		//if (_opacityModifyRGB)
+		{
+			color4.r *= _displayedOpacity / 255.0f;
+			color4.g *= _displayedOpacity / 255.0f;
+			color4.b *= _displayedOpacity / 255.0f;
+		}
+
+		// 遍历所有的子节点（即 TMXLayer）
+		for (auto& child : _children)
+		{
+			TMXLayer* layer = dynamic_cast<TMXLayer*>(child);
+			if (layer)
+			{
+				auto quads = layer->getTextureAtlas()->getQuads();
+				ssize_t totalQuads = layer->getTextureAtlas()->getTotalQuads();
+				for (int index = 0; index < totalQuads; index++)
+				{
+					quads[index].bl.colors = color4;
+					quads[index].br.colors = color4;
+					quads[index].tl.colors = color4;
+					quads[index].tr.colors = color4;
+					layer->getTextureAtlas()->updateQuad(&quads[index], index);
+				}
+			}
+		}
+	}
+	、、＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝方便粒子跟随地图滚动 
+	ParticleSystem.h
+	增加变量
+	Vec2 _offsetPosition
+	增加地图函数
+	void setOffsetPosition(const Vec2& pos) { _offsetPosition = pos; }
+	
+	CCParticleSystemQuad.cpp
+	344行，增加_offsetPosition计算
+	
+	Vec2 currentPosition;
+    if (_positionType == PositionType::FREE)
+    {
+        currentPosition = this->convertToWorldSpace(Vec2::ZERO) + _offsetPosition;
+    }
+    else if (_positionType == PositionType::RELATIVE)
+    {
+        currentPosition = _position + _offsetPosition;
+    }
+
+文件CCGeometry.h 202行加入
+bool Rect::intersectsRectStrict(const Rect& rect) const
+{
+	return !(getMaxX() <= rect.getMinX() ||
+		rect.getMaxX() <= getMinX() ||
+		getMaxY() <= rect.getMinY() ||
+		rect.getMaxY() <= getMinY());
+}

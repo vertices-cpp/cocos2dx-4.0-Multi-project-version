@@ -1,0 +1,394 @@
+{
+  "animation_cfg": [ 
+    {
+      "animation": "ANIMATION_IDLE",
+      "frames": [
+        {
+          "frame": "stand-01",
+          "delay": 10
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_RUN",
+      "frames": [
+        {
+          "frame": "run-01",
+          "delay": 8
+        },
+        {
+          "frame": "run-02",
+          "delay": 8
+        },
+        {
+          "frame": "run-03",
+          "delay": 8
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_SQUAT_1",
+      "frames": [
+        {
+          "frame": "squat-01",
+          "delay": 10
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_SQUAT_2",
+      "frames": [
+        {
+          "frame": "squat-01",
+          "delay": 10
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_JUMP",
+      "frames": [
+        {
+          "frame": "jmp",
+          "delay": 10
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_HANGING",
+      "frames": [
+        {
+          "frame": "hang-01",
+          "delay": 10
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_HANGING_MOVE",
+      "frames": [
+        {
+          "frame": "hang-forward-01-01",
+          "delay": 10
+        },
+        {
+          "frame": "hang-forward-01-02",
+          "delay": 10
+        },
+        {
+          "frame": "hang-forward-01-03",
+          "delay": 10
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_HANGING_ROLL_UP",
+      "frames": [
+        {
+          "frame": "roll-01-01",
+          "delay": 5
+        },
+        {
+          "frame": "roll-01-02",
+          "delay": 5
+        },
+        {
+          "frame": "roll-01-03",
+          "delay": 5
+        },
+        {
+          "frame": "roll-01-04",
+          "delay": 5
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_HANGING_ROLL_DOWN",
+      "frames": [
+        {
+          "frame": "roll-01-04",
+          "delay": 5
+        },
+        {
+          "frame": "roll-01-03",
+          "delay": 5
+        },
+        {
+          "frame": "roll-01-02",
+          "delay": 5
+        },
+        {
+          "frame": "roll-01-01",
+          "delay": 5
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_ATTACK_1",
+      "frames": [
+        {
+          "frame": "attack-01-01",
+          "delay": 3
+        },
+        {
+          "frame": "attack-01-02",
+          "delay": 3
+        },
+        {
+          "frame": "attack-01-03",
+          "delay": 3
+        }
+      ],
+      "events": [
+        {
+          "trigger_frame": 1,
+          "event": "attackEvent"
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_ATTACK_2",
+      "frames": [
+        {
+          "frame": "attack-02-01",
+          "delay": 3
+        },
+        {
+          "frame": "attack-02-02",
+          "delay": 3
+        },
+        {
+          "frame": "attack-02-03",
+          "delay": 3
+        },
+        {
+          "frame": "attack-02-04",
+          "delay": 3
+        }
+      ],
+      "events": [
+        {
+          "trigger_frame": 1,
+          "event": "attackEvent"
+        }
+      ]
+    },
+    { 
+      "animation": "ANIMATION_SQUATTING_ATTACK_1",
+      "frames": [
+        {
+          "frame": "squat-attack-01-01",
+          "delay": 1
+        },
+        {
+          "frame": "squat-attack-01-02",
+          "delay": 1
+        },
+        {
+          "frame": "squat-attack-01-03",
+          "delay": 1
+        }
+      ],
+      "events": [
+        {
+          "trigger_frame": 1,
+          "event": "attackEvent"
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_SQUATTING_ATTACK_2",
+      "frames": [
+        {
+          "frame": "squat-attack-02-01",
+          "delay": 3
+        },
+        {
+          "frame": "squat-attack-02-02",
+          "delay": 3
+        },
+        {
+          "frame": "squat-attack-02-03",
+          "delay": 3
+        }
+      ],
+      "events": [
+        {
+          "trigger_frame": 1,
+          "event": "attackEvent"
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_JUMP_ATTACK_1",
+      "frames": [
+        {
+          "frame": "jmp-attack-01-01",
+          "delay": 3
+        },
+        {
+          "frame": "jmp-attack-01-02",
+          "delay": 3
+        },
+        {
+          "frame": "jmp-attack-01-03",
+          "delay": 3
+        }
+      ],
+      "events": [
+        {
+          "trigger_frame": 1,
+          "event": "attackEvent"
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_JUMP_ATTACK_2",
+      "frames": [
+        {
+          "frame": "jmp-attack-02-01",
+          "delay": 3
+        },
+        {
+          "frame": "jmp-attack-02-03",
+          "delay": 3
+        },
+        {
+          "frame": "jmp-attack-02-02",
+          "delay": 3
+        }
+      ],
+      "events": [
+        {
+          "trigger_frame": 1,
+          "event": "attackEvent"
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_HANGING_ATTACK_1",
+      "frames": [
+        {
+          "frame": "hang-attack-01-01",
+          "delay": 3
+        },
+        {
+          "frame": "hang-attack-01-02",
+          "delay": 3
+        },
+        {
+          "frame": "hang-attack-01-03",
+          "delay": 3
+        }
+      ],
+      "events": [
+        {
+          "trigger_frame": 1,
+          "event": "attackEvent"
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_HANGING_ATTACK_2",
+      "frames": [
+        {
+          "frame": "hang-attack-02-01",
+          "delay": 3
+        },
+        {
+          "frame": "hang-attack-02-02",
+          "delay": 3
+        },
+        {
+          "frame": "hang-attack-02-03",
+          "delay": 3
+        }
+      ],
+      "events": [
+        {
+          "trigger_frame": 1,
+          "event": "attackEvent"
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_THROW_ITEM",
+      "frames": [
+        {
+          "frame": "attack-05-01",
+          "delay": 5
+        },
+        {
+          "frame": "attack-05-02",
+          "delay": 5
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_SQUATTING_THROW_ITEM",
+      "frames": [
+        {
+          "frame": "squat-attack-03-01",
+          "delay": 5
+        },
+        {
+          "frame": "squat-attack-03-02",
+          "delay": 5
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_JUMP_THROW_ITEM",
+      "frames": [
+        {
+          "frame": "jmp-attack-03-01",
+          "delay": 5
+        },
+        {
+          "frame": "jmp-attack-03-02",
+          "delay": 5
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_HANGING_THROW_ITEM",
+      "frames": [
+        {
+          "frame": "hang-attack-03-01",
+          "delay": 5
+        },
+        {
+          "frame": "hang-attack-03-02",
+          "delay": 5
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_SPECIAL_ATTACK",
+      "frames": [
+        {
+          "frame": "attack-06-01",
+          "delay": 10
+        },
+        {
+          "frame": "attack-06-02",
+          "delay": 10
+        },
+        {
+          "frame": "attack-06-03",
+          "delay": 10
+        },
+        {
+          "frame": "attack-06-03",
+          "delay": 20
+        },
+        {
+          "frame": "attack-06-04",
+          "delay": 30
+        },
+        {
+          "frame": "attack-06-04",
+          "delay": 10
+        }
+      ]
+    }
+  ]
+}

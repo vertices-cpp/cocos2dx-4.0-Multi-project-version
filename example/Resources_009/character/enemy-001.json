@@ -1,0 +1,49 @@
+{
+  "animation_cfg": [
+    {
+      "animation": "ANIMATION_IDLE",
+      "loop":true,
+      "frames": [
+        {
+          "frame": "idle",
+          "delay": 10
+        }
+      ]
+    },
+    {
+      "animation": "ANIMATION_RUN",
+      "loop":true,
+      "frames": [
+        {
+          "frame": "run-01",
+          "delay": 8
+        },
+        {
+          "frame": "run-02",
+          "delay": 8
+        } 
+      ]
+    },
+   
+    {
+      "animation": "ANIMATION_JUMP",
+      "loop":true,
+      "frames": [
+        {
+          "frame": "jump",
+          "delay": 10
+        }
+      ]
+    },
+    
+    {
+      "animation": "ANIMATION_ATTACK_1",
+      "frames": [
+        {
+          "frame": "attack-01",
+          "delay": 3
+        } 
+      ] 
+    }
+  ]
+}

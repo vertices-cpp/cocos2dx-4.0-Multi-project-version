@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="8" height="10" tilewidth="8" tileheight="8" infinite="0" nextlayerid="140" nextobjectid="69">
+ <tileset firstgid="1" name="character-001" tilewidth="8" tileheight="8" tilecount="990" columns="33">
+  <image source="character-001.png" width="264" height="240"/>
+ </tileset>
+ <layer id="1" name="stand-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.333333333"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+1,2,3,0,0,0,0,0,
+34,35,36,0,0,0,0,0,
+67,68,69,0,0,0,0,0,
+100,101,102,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="78" name="stand-01" visible="0">
+  <object id="8" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <layer id="2" name="run-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.33333333"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+4,5,6,0,0,0,0,0,
+37,38,39,0,0,0,0,0,
+70,71,72,0,0,0,0,0,
+103,104,105,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="81" name="run-01" visible="0">
+  <object id="12" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="82" name="run-02" visible="0">
+  <object id="13" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="83" name="run-03" visible="0">
+  <object id="14" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <layer id="3" name="run-02" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.3333333"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+7,8,9,0,0,0,0,0,
+40,41,42,0,0,0,0,0,
+73,74,75,0,0,0,0,0,
+106,107,108,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="run-03" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.3333333"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+10,11,12,0,0,0,0,0,
+43,44,45,0,0,0,0,0,
+76,77,78,0,0,0,0,0,
+109,110,111,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="87" name="attack-01-01" visible="0">
+  <object id="17" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="88" name="attack-01-02" visible="0">
+  <object id="18" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="89" name="attack-01-03" visible="0">
+  <object id="19" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <layer id="5" name="attack-01-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.5"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+199,200,0,0,0,0,0,0,
+232,233,0,0,0,0,0,0,
+265,266,0,0,0,0,0,0,
+298,299,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="attack-01-02" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.25"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+201,202,203,204,0,0,0,0,
+234,235,236,237,0,0,0,0,
+267,268,269,270,0,0,0,0,
+300,301,302,303,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="attack-01-03" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.25"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+205,206,207,208,0,0,0,0,
+238,239,240,241,0,0,0,0,
+271,272,273,274,0,0,0,0,
+304,305,306,307,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="98" name="attack-02-01" visible="0">
+  <object id="28" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="99" name="attack-02-02" visible="0">
+  <object id="29" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="100" name="attack-02-03" visible="0">
+  <object id="30" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="126" name="attack-02-04" visible="0">
+  <object id="55" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <layer id="12" name="attack-02-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.66666"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+331,332,333,0,0,0,0,0,
+364,365,366,0,0,0,0,0,
+397,398,399,0,0,0,0,0,
+430,431,432,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="13" name="attack-02-02" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.2"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+334,335,336,337,338,0,0,0,
+367,368,369,370,371,0,0,0,
+400,401,402,403,404,0,0,0,
+433,434,435,436,437,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="15" name="attack-02-03" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.125"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+334,335,336,337,337,337,337,338,
+367,368,369,370,370,370,370,371,
+400,401,0,0,0,0,0,0,
+433,434,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="14" name="attack-02-04" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.166666666"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+334,335,336,337,337,338,0,0,
+367,368,369,370,370,371,0,0,
+400,401,402,403,404,0,0,0,
+433,434,435,436,437,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="121" name="attack-03-01" visible="0">
+  <object id="51" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="122" name="attack-03-02" visible="0">
+  <object id="52" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="123" name="attack-04-01" visible="0">
+  <object id="53" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="124" name="attack-04-02" visible="0">
+  <object id="54" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <layer id="17" name="attack-03-01" width="8" height="10" visible="0">
+  <data encoding="csv">
+0,0,0,348,349,0,0,0,
+0,0,0,381,382,0,0,0,
+345,346,347,414,0,0,0,0,
+378,379,380,348,0,0,0,0,
+411,412,0,0,0,0,0,0,
+444,445,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="16" name="attack-03-02" width="8" height="10" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,349,
+0,0,0,0,0,348,381,382,
+0,0,0,0,348,381,414,0,
+0,0,0,348,381,414,447,0,
+0,0,0,381,414,447,0,0,
+345,346,347,414,447,0,0,0,
+378,379,380,447,0,0,0,0,
+411,412,413,0,0,0,0,0,
+444,445,446,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="19" name="attack-04-01" width="8" height="10" visible="0">
+  <data encoding="csv">
+343,344,0,0,0,0,0,0,
+376,377,0,0,0,0,0,0,
+438,439,0,0,0,0,0,0,
+341,342,0,0,0,0,0,0,
+374,375,0,0,0,0,0,0,
+407,408,0,0,0,0,0,0,
+440,441,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="18" name="attack-04-02" width="8" height="10" visible="0">
+  <data encoding="csv">
+343,344,0,0,0,0,0,0,
+376,377,0,0,0,0,0,0,
+376,377,0,0,0,0,0,0,
+409,410,0,0,0,0,0,0,
+442,443,0,0,0,0,0,0,
+438,439,0,0,0,0,0,0,
+341,342,0,0,0,0,0,0,
+374,375,0,0,0,0,0,0,
+407,408,0,0,0,0,0,0,
+440,441,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="90" name="attack-05-01" visible="0">
+  <object id="20" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="91" name="attack-05-02" visible="0">
+  <object id="21" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <layer id="20" name="attack-05-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.5"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+242,243,0,0,0,0,0,0,
+275,276,0,0,0,0,0,0,
+271,272,0,0,0,0,0,0,
+304,305,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="21" name="attack-05-02" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.33333333"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+244,245,246,0,0,0,0,0,
+277,278,279,0,0,0,0,0,
+271,272,0,0,0,0,0,0,
+304,305,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="133" name="attack-06-01" visible="0">
+  <object id="62" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="134" name="attack-06-02" visible="0">
+  <object id="63" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="135" name="attack-06-03" visible="0">
+  <object id="64" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="136" name="attack-06-04" visible="0">
+  <object id="65" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <layer id="29" name="attack-06-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.6666"/>
+   <property name="anchorPointY" type="float" value="0.6"/>
+  </properties>
+  <data encoding="csv">
+516,517,518,0,0,0,0,0,
+549,550,551,0,0,0,0,0,
+582,583,584,0,0,0,0,0,
+615,616,617,0,0,0,0,0,
+648,649,650,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="30" name="attack-06-02" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.6666"/>
+   <property name="anchorPointY" type="float" value="0.428"/>
+  </properties>
+  <data encoding="csv">
+453,454,455,0,0,0,0,0,
+486,487,488,0,0,0,0,0,
+519,520,521,0,0,0,0,0,
+552,553,554,0,0,0,0,0,
+585,586,587,0,0,0,0,0,
+618,619,620,0,0,0,0,0,
+651,652,653,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="31" name="attack-06-03" width="8" height="10" visible="0" locked="1">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.5"/>
+   <property name="anchorPointY" type="float" value="0.33"/>
+  </properties>
+  <data encoding="csv">
+391,392,0,0,0,0,0,0,
+424,425,0,0,0,0,0,0,
+457,458,0,0,0,0,0,0,
+490,491,0,0,0,0,0,0,
+523,524,0,0,0,0,0,0,
+556,557,0,0,0,0,0,0,
+589,590,0,0,0,0,0,0,
+622,623,0,0,0,0,0,0,
+655,656,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="32" name="attack-06-04" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.6666"/>
+   <property name="anchorPointY" type="float" value="0.4285"/>
+  </properties>
+  <data encoding="csv">
+459,460,461,0,0,0,0,0,
+492,493,494,0,0,0,0,0,
+525,526,527,0,0,0,0,0,
+558,559,560,0,0,0,0,0,
+591,592,593,0,0,0,0,0,
+624,625,626,0,0,0,0,0,
+657,658,659,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="86" name="squat-01" visible="0">
+  <object id="16" name="collision" x="0" y="0" width="16" height="24"/>
+ </objectgroup>
+ <layer id="11" name="squat-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.333333"/>
+   <property name="anchorPointY" type="float" value="0.333333"/>
+  </properties>
+  <data encoding="csv">
+1,2,0,0,0,0,0,0,
+34,35,36,0,0,0,0,0,
+308,309,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="92" name="squat-attack-01-01" visible="0">
+  <object id="22" name="collision" x="0" y="0" width="16" height="24"/>
+ </objectgroup>
+ <objectgroup id="93" name="squat-attack-01-02" visible="0">
+  <object id="23" name="collision" x="0" y="0" width="16" height="24"/>
+ </objectgroup>
+ <objectgroup id="94" name="squat-attack-01-03" visible="0">
+  <object id="24" name="collision" x="0" y="0" width="16" height="24"/>
+ </objectgroup>
+ <layer id="8" name="squat-attack-01-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.5"/>
+   <property name="anchorPointY" type="float" value="0.333333"/>
+  </properties>
+  <data encoding="csv">
+199,200,0,0,0,0,0,0,
+232,233,0,0,0,0,0,0,
+308,309,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="9" name="squat-attack-01-02" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.25"/>
+   <property name="anchorPointY" type="float" value="0.333333"/>
+  </properties>
+  <data encoding="csv">
+201,202,0,0,0,0,0,0,
+234,235,236,237,0,0,0,0,
+138,139,269,270,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="10" name="squat-attack-01-03" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.25"/>
+   <property name="anchorPointY" type="float" value="0.333333"/>
+  </properties>
+  <data encoding="csv">
+142,143,146,147,0,0,0,0,
+175,176,0,180,0,0,0,0,
+166,167,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="101" name="squat-attack-02-01" visible="0">
+  <object id="31" name="collision" x="0" y="0" width="16" height="24"/>
+ </objectgroup>
+ <objectgroup id="102" name="squat-attack-02-02" visible="0">
+  <object id="32" name="collision" x="0" y="0" width="16" height="24"/>
+ </objectgroup>
+ <objectgroup id="103" name="squat-attack-02-03" visible="0">
+  <object id="33" name="collision" x="0" y="0" width="16" height="24"/>
+ </objectgroup>
+ <layer id="22" name="squat-attack-02-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.6666666"/>
+   <property name="anchorPointY" type="float" value="0.333333"/>
+  </properties>
+  <data encoding="csv">
+331,332,333,0,0,0,0,0,
+364,365,366,0,0,0,0,0,
+0,166,167,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="23" name="squat-attack-02-03" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.2"/>
+   <property name="anchorPointY" type="float" value="0.333333"/>
+  </properties>
+  <data encoding="csv">
+334,335,336,337,338,0,0,0,
+367,368,369,370,371,0,0,0,
+138,139,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="24" name="squat-attack-02-02" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.125"/>
+   <property name="anchorPointY" type="float" value="0.333333"/>
+  </properties>
+  <data encoding="csv">
+334,335,336,337,337,337,337,338,
+367,368,369,370,370,370,370,371,
+166,167,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="104" name="squat-attack-03-01" visible="0">
+  <object id="34" name="collision" x="0" y="0" width="16" height="24"/>
+ </objectgroup>
+ <objectgroup id="105" name="squat-attack-03-02" visible="0">
+  <object id="35" name="collision" x="0" y="0" width="16" height="24"/>
+ </objectgroup>
+ <layer id="26" name="squat-attack-03-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.5"/>
+   <property name="anchorPointY" type="float" value="0.333333"/>
+  </properties>
+  <data encoding="csv">
+242,243,0,0,0,0,0,0,
+275,276,0,0,0,0,0,0,
+308,309,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="27" name="squat-attack-03-02" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.33333"/>
+   <property name="anchorPointY" type="float" value="0.333333"/>
+  </properties>
+  <data encoding="csv">
+244,245,246,0,0,0,0,0,
+277,278,279,0,0,0,0,0,
+310,311,312,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="113" name="hang-01" visible="0">
+  <object id="43" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <layer id="28" name="hang-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.6666666"/>
+   <property name="anchorPointY" type="float" value="0.6"/>
+  </properties>
+  <data encoding="csv">
+661,662,663,0,0,0,0,0,
+694,695,696,0,0,0,0,0,
+727,728,729,0,0,0,0,0,
+760,761,762,0,0,0,0,0,
+793,794,795,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="110" name="hang-forward-01-01" visible="0">
+  <object id="40" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="111" name="hang-forward-01-02" visible="0">
+  <object id="41" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="112" name="hang-forward-01-03" visible="0">
+  <object id="42" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <layer id="35" name="hang-forward-01-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.333333"/>
+   <property name="anchorPointY" type="float" value="0.6"/>
+  </properties>
+  <data encoding="csv">
+665,666,667,0,0,0,0,0,
+698,699,700,0,0,0,0,0,
+731,732,733,0,0,0,0,0,
+764,765,766,0,0,0,0,0,
+797,798,799,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="36" name="hang-forward-01-02" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.5"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+668,669,0,0,0,0,0,0,
+701,702,0,0,0,0,0,0,
+734,735,0,0,0,0,0,0,
+767,768,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="37" name="hang-forward-01-03" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.33333333"/>
+   <property name="anchorPointY" type="float" value="0.666666"/>
+  </properties>
+  <data encoding="csv">
+671,672,673,0,0,0,0,0,
+704,705,706,0,0,0,0,0,
+737,738,739,0,0,0,0,0,
+770,771,772,0,0,0,0,0,
+803,804,805,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="132" name="hang-attack-01-01" visible="0">
+  <object id="61" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="115" name="hang-attack-01-02" visible="0">
+  <object id="45" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="116" name="hang-attack-01-03" visible="0">
+  <object id="46" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <layer id="34" name="hang-attack-01-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.666"/>
+   <property name="anchorPointY" type="float" value="0.666666"/>
+  </properties>
+  <data encoding="csv">
+680,681,682,0,0,0,0,0,
+713,714,715,0,0,0,0,0,
+746,747,748,0,0,0,0,0,
+779,780,781,0,0,0,0,0,
+812,813,814,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="38" name="hang-attack-01-02" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.25"/>
+   <property name="anchorPointY" type="float" value="0.666666"/>
+  </properties>
+  <data encoding="csv">
+684,685,686,687,0,0,0,0,
+717,718,719,720,0,0,0,0,
+750,751,752,753,0,0,0,0,
+783,784,785,786,0,0,0,0,
+816,817,818,819,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="39" name="hang-attack-01-03" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.25"/>
+   <property name="anchorPointY" type="float" value="0.666666"/>
+  </properties>
+  <data encoding="csv">
+688,689,690,691,0,0,0,0,
+721,722,723,724,0,0,0,0,
+754,755,756,757,0,0,0,0,
+787,788,789,790,0,0,0,0,
+820,821,822,823,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="129" name="hang-attack-02-01" visible="0">
+  <object id="58" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="130" name="hang-attack-02-02" visible="0">
+  <object id="59" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="131" name="hang-attack-02-03" visible="0">
+  <object id="60" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <layer id="40" name="hang-attack-02-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.66666"/>
+   <property name="anchorPointY" type="float" value="0.6"/>
+  </properties>
+  <data encoding="csv">
+0,674,675,0,0,0,0,0,
+608,707,708,0,0,0,0,0,
+641,740,741,0,0,0,0,0,
+0,773,774,0,0,0,0,0,
+0,806,807,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="42" name="hang-attack-02-02" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.125"/>
+   <property name="anchorPointY" type="float" value="0.6"/>
+  </properties>
+  <data encoding="csv">
+677,678,0,0,0,0,0,0,
+710,711,613,613,613,613,613,614,
+743,744,646,646,646,646,646,647,
+776,777,0,0,0,0,0,0,
+809,810,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="41" name="hang-attack-02-03" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.2"/>
+   <property name="anchorPointY" type="float" value="0.6"/>
+  </properties>
+  <data encoding="csv">
+677,678,0,0,0,0,0,0,
+710,711,613,613,614,0,0,0,
+743,744,646,646,647,0,0,0,
+776,777,0,0,0,0,0,0,
+809,810,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="127" name="hang-attack-03-01" visible="0">
+  <object id="56" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="128" name="hang-attack-03-02" visible="0">
+  <object id="57" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <layer id="43" name="hang-attack-03-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.5"/>
+   <property name="anchorPointY" type="float" value="0.6"/>
+  </properties>
+  <data encoding="csv">
+674,675,0,0,0,0,0,0,
+707,708,0,0,0,0,0,0,
+740,741,0,0,0,0,0,0,
+773,774,0,0,0,0,0,0,
+806,807,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="44" name="hang-attack-03-02" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.33333333"/>
+   <property name="anchorPointY" type="float" value="0.6"/>
+  </properties>
+  <data encoding="csv">
+677,678,679,0,0,0,0,0,
+710,711,712,0,0,0,0,0,
+743,744,745,0,0,0,0,0,
+776,777,778,0,0,0,0,0,
+809,810,811,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="45" name="jmp" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.333333333"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+214,215,216,0,0,0,0,0,
+247,248,249,0,0,0,0,0,
+280,281,282,0,0,0,0,0,
+313,314,315,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="84" name="jmp" visible="0">
+  <object id="15" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="95" name="jmp-attack-01-01" visible="0">
+  <object id="25" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="96" name="jmp-attack-01-02" visible="0">
+  <object id="26" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="97" name="jmp-attack-01-03" visible="0">
+  <object id="27" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <layer id="46" name="jmp-attack-01-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.5"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+199,200,0,0,0,0,0,0,
+232,233,0,0,0,0,0,0,
+280,281,0,0,0,0,0,0,
+313,314,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="47" name="jmp-attack-01-02" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.25"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+201,202,203,204,0,0,0,0,
+234,235,236,237,0,0,0,0,
+280,281,269,270,0,0,0,0,
+313,314,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="48" name="jmp-attack-01-03" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.25"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+205,206,207,208,0,0,0,0,
+238,239,240,241,0,0,0,0,
+280,281,0,0,0,0,0,0,
+313,314,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="106" name="jmp-attack-02-01" visible="0">
+  <object id="36" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="107" name="jmp-attack-02-02" visible="0">
+  <object id="37" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="109" name="jmp-attack-02-03" visible="0">
+  <object id="39" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <layer id="49" name="jmp-attack-02-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.666666666"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+331,332,333,0,0,0,0,0,
+364,365,366,0,0,0,0,0,
+0,280,281,0,0,0,0,0,
+0,313,314,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="50" name="jmp-attack-02-02" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.25"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+334,335,336,337,338,0,0,0,
+367,368,369,370,371,0,0,0,
+280,281,0,0,0,0,0,0,
+313,314,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="51" name="jmp-attack-02-03" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.125"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+334,335,336,337,337,337,337,338,
+367,368,369,370,370,370,370,371,
+280,281,0,0,0,0,0,0,
+313,314,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="138" name="jmp-attack-03-01" visible="0">
+  <object id="67" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="139" name="jmp-attack-03-02" visible="0">
+  <object id="68" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <layer id="52" name="jmp-attack-03-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.5"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+242,243,0,0,0,0,0,0,
+275,276,0,0,0,0,0,0,
+280,281,0,0,0,0,0,0,
+313,314,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="53" name="jmp-attack-03-02" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.333333333"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+244,245,246,0,0,0,0,0,
+277,278,279,0,0,0,0,0,
+280,281,0,0,0,0,0,0,
+313,314,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="54" name="publish-01-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+17,18,0,0,0,0,0,0,
+50,51,0,0,0,0,0,0,
+83,84,0,0,0,0,0,0,
+116,117,0,0,0,0,0,0,
+149,150,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="55" name="publish-01-02" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+19,20,0,0,0,0,0,0,
+52,53,0,0,0,0,0,0,
+85,86,0,0,0,0,0,0,
+118,119,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="58" name="publish-attack-01-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+26,27,28,29,0,0,0,0,
+59,60,61,62,0,0,0,0,
+92,93,94,95,0,0,0,0,
+125,126,127,128,0,0,0,0,
+158,159,160,161,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="59" name="publish-attack-01-02" width="8" height="10" visible="0">
+  <data encoding="csv">
+30,31,0,0,0,0,0,0,
+63,64,65,66,0,0,0,0,
+96,97,98,99,0,0,0,0,
+129,130,0,0,0,0,0,0,
+162,163,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="56" name="publish-attack-02-01" width="8" height="10" visible="0">
+  <data encoding="csv">
+21,22,23,24,25,0,0,0,
+54,55,56,57,58,0,0,0,
+87,88,89,90,91,0,0,0,
+120,121,122,123,124,0,0,0,
+153,154,155,156,157,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="57" name="publish-attack-02-02" width="8" height="10" visible="0">
+  <data encoding="csv">
+21,22,23,24,24,24,24,25,
+54,55,56,57,57,57,57,58,
+87,88,89,90,91,0,0,0,
+120,121,122,123,124,0,0,0,
+153,154,155,156,157,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="60" name="publish-attack-03-01" width="8" height="10" visible="0">
+  <data encoding="csv">
+30,31,0,0,0,0,0,0,
+63,64,0,0,0,0,0,0,
+96,97,0,0,0,0,0,0,
+129,130,0,0,0,0,0,0,
+162,163,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="61" name="publish-attack-03-02" width="8" height="10" visible="0">
+  <data encoding="csv">
+21,22,23,0,0,0,0,0,
+54,55,56,0,0,0,0,0,
+87,88,89,0,0,0,0,0,
+120,121,122,0,0,0,0,0,
+153,154,155,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="117" name="roll-01-01" visible="0">
+  <object id="47" name="collision" x="0" y="0" width="16" height="24"/>
+ </objectgroup>
+ <objectgroup id="118" name="roll-01-02" visible="0">
+  <object id="48" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="119" name="roll-01-03" visible="0">
+  <object id="49" name="collision" x="0" y="0" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="120" name="roll-01-04" visible="0">
+  <object id="50" name="collision" x="0" y="0" width="16" height="24"/>
+ </objectgroup>
+ <layer id="62" name="roll-01-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.5"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+869,870,0,0,0,0,0,0,
+902,903,0,0,0,0,0,0,
+935,936,0,0,0,0,0,0,
+968,969,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="63" name="roll-01-02" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.5"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+871,872,873,874,0,0,0,0,
+904,905,906,907,0,0,0,0,
+937,938,939,940,0,0,0,0,
+970,971,972,973,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="64" name="roll-01-03" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.5"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+842,843,0,0,0,0,0,0,
+875,876,0,0,0,0,0,0,
+908,909,0,0,0,0,0,0,
+941,942,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="65" name="roll-01-04" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.5"/>
+   <property name="anchorPointY" type="float" value="0.333333333"/>
+  </properties>
+  <data encoding="csv">
+877,878,879,880,0,0,0,0,
+910,911,912,913,0,0,0,0,
+943,944,945,946,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="66" name="death-01-01" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.66666"/>
+   <property name="anchorPointY" type="float" value="0.5"/>
+  </properties>
+  <data encoding="csv">
+859,860,861,0,0,0,0,0,
+892,893,894,0,0,0,0,0,
+925,926,927,0,0,0,0,0,
+958,959,960,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="67" name="death-01-02" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.333333333"/>
+   <property name="anchorPointY" type="float" value="0.6666666"/>
+  </properties>
+  <data encoding="csv">
+895,896,897,0,0,0,0,0,
+928,929,930,0,0,0,0,0,
+961,962,963,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="68" name="death-01-03" width="8" height="10" visible="0">
+  <properties>
+   <property name="anchorPointX" type="float" value="0.5"/>
+   <property name="anchorPointY" type="float" value="1"/>
+  </properties>
+  <data encoding="csv">
+931,932,933,934,0,0,0,0,
+964,965,966,967,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
